@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+sdist/
+wheels/
+*.whl
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Analysis outputs (user data - never commit)
+*_analysis.json
+*_analysis_result.json
+analysis_result.json
+test_output.json
+dev_test.json
+
+# Sample/chat data (user privacy)
+sample_data.json
+test_data.json
+chat_data.json
+*.chat
+*.wechat
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
